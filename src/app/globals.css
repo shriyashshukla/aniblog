@@ -82,8 +82,9 @@ body {
   display: flex; /* Use flexbox */
   justify-content: center; /* Center horizontally */
   align-items: flex-start; /* Align items to the start (top) */
-  height: 100vh; /* Full height of viewport, adjust as needed */
+  height: 10vh; /* Full height of viewport, adjust as needed */
   padding-top: 20px; /* Add padding to move it a bit down from the top */
+  padding: auto;
 }
 
 /* .logo-button styles */
