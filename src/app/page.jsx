@@ -1,6 +1,9 @@
 import React from 'react';
 import Cards from './cards/page.jsx';
+import {signOut, useSession} from 'next-auth/react';
 
+export default function Navbar() {
+  const session = useSession();
 const page = () => {
   return (
     <>
@@ -9,10 +12,6 @@ const page = () => {
 
       </div>
       <Cards />
-
-
-
-
 
     </>
   );
