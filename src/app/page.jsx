@@ -5,8 +5,7 @@ import Cards from './cards/page.jsx';
 import { signOut, useSession } from 'next-auth/react';
 
 export default function Navbar() {
-  const { data: session } = useSession(); // Use destructuring to access session data
-
+  
   return (
     <>
       <div className="logo-container">
